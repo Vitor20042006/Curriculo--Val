@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo Profissional | Valquíria Maurício Muniz de Souza</title>
+
+  <style>
+    :root {
+      --primary: #1e3799;
+      --secondary: #4a69bd;
+      --text: #2f3542;
+      --bg: #f1f2f6;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .resume-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--white);
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-top: 8px solid var(--primary);
+      border-radius: 6px;
+    }
+
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .photo-wrap {
+      width: 120px;
+      height: 120px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #eee;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .profile-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--primary);
+      font-size: 1.8rem;
+      text-transform: uppercase;
+    }
+
+    .professional-title {
+      color: var(--secondary);
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin: 5px 0;
+    }
+
+    .contact-info p {
+      margin: 2px 0;
+      font-size: 0.85rem;
+    }
+
+    .contact-info a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .qr-code {
+      text-align: center;
+    }
+
+    .qr-code img {
+      width: 120px;
+      border-radius: 10px;
+    }
+
+    .qr-caption {
+      font-size: 0.7rem;
+      color: #888;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--secondary);
+      padding-bottom: 5px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin-bottom: 4px;
+      color: #2f3542;
+    }
+
+    .experience-item {
+      margin-bottom: 15px;
+    }
+
+    .institution {
+      display: block;
+      color: var(--secondary);
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-card {
+      background: #fafafa;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-radius: 6px;
+    }
+
+    .highlight-box {
+      background: #f8f9ff;
+      border-left: 4px solid var(--secondary);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    footer {
+      margin-top: 35px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .resume-container {
+        padding: 20px;
+      }
+
+      .top-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .header-left {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+
+      .resume-container {
+        box-shadow: none;
+        border-radius: 0;
+        max-width: 100%;
+      }
+
+      a {
+        color: var(--primary);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume-container">
+
+    <header>
+      <div class="top-header">
+
+        <div class="header-left">
+          <div class="photo-wrap">
+            <img src="perfil.png" alt="Foto profissional - Valquíria" class="profile-photo">
+          </div>
+
+          <div class="header-info">
+            <h1>Valquíria Maurício Muniz de Souza</h1>
+            <p class="professional-title">
+              Professora de Matemática desde 2006 | Ensino Fundamental, Médio e Superior | BNCC
+            </p>
+
+            <div class="contact-info">
+              <p>São Paulo – SP</p>
+              <p>(11) 98657-3064</p>
+              <p>valquiriamauriciomunizdesouza@gmail.com</p>
+            </div>
+          </div>
+        </div>
+</div>
+    </header>
+
+    <section>
+      <h2>Resumo Profissional</h2>
+      <p>
+        Professora de Matemática atuando desde 2006, com experiência no Ensino Fundamental,
+        Ensino Médio e Ensino Superior. Sólida vivência em planejamento pedagógico
+        alinhado à BNCC, aplicação de avaliações diagnósticas e metodologias ativas.
+        Lecionou para turmas de Pedagogia e estudantes de Enfermagem, desenvolvendo
+        conteúdos matemáticos aplicados à formação acadêmica e profissional.
+      </p>
+
+      <div class="highlight-box">
+        <p>
+          Perfil profissional marcado por dedicação, escuta ativa, acolhimento dos alunos,
+          organização pedagógica e compromisso com a aprendizagem significativa. Atua com
+          foco no desenvolvimento do raciocínio lógico, na recuperação de defasagens e na
+          valorização do estudante como protagonista do próprio aprendizado.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experiência Profissional</h2>
+
+      <div class="experience-item">
+        <h3>Professora de Matemática – Ensino Fundamental e Médio</h3>
+        <p class="institution">Instituições de Ensino Público e Privado – São Paulo/SP</p>
+        <ul>
+          <li>Atuação docente desde 2006.</li>
+          <li>Planejamento e execução de aulas alinhadas à BNCC.</li>
+          <li>Aplicação de avaliações diagnósticas, formativas e somativas.</li>
+          <li>Desenvolvimento de projetos interdisciplinares e Educação Financeira.</li>
+          <li>Coordenação de turma e acompanhamento pedagógico individualizado.</li>
+          <li>Recuperação e consolidação de aprendizagem.</li>
+          <li>Elaboração de materiais de estudo, listas, mapas mentais, simulados e atividades adaptadas.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+
+
+        <h3>Professora de Matemática e Física</h3>
+
+
+        <p class="institution">
+          Instituições de Ensino Privado – São Paulo/SP
+        </p>
+
+        <ul>
+          <li>Atuação no Ensino Fundamental II, Ensino Médio e cursos profissionalizantes.</li>
+          <li>Planejamento pedagógico alinhado à BNCC.</li>
+          <li>Utilização dos Sistemas de Ensino FTD, Moderna e Ético.</li>
+          <li>Elaboração e aplicação de avaliações diagnósticas, formativas e somativas.</li>
+          <li>Desenvolvimento de projetos interdisciplinares e Educação Financeira.</li>
+          <li>Acompanhamento individualizado dos estudantes.</li>
+          <li>Recuperação contínua da aprendizagem.</li>
+        </ul>
+
+</div>
+
+      <div class="experience-item">
+        <h3>Docência no Ensino Superior</h3>
+        <p class="institution">Cursos de Pedagogia e Enfermagem</p>
+        <ul>
+          <li>Lecionou para turmas de Pedagogia com foco em nivelamento e fundamentos matemáticos.</li>
+          <li>Atuação com estudantes de Enfermagem aplicando matemática voltada à área da saúde.</li>
+          <li>Trabalho com contextualização dos conteúdos para a prática profissional dos estudantes.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Experiência com Sistemas de Ensino</h3>
+        <ul>
+          <li>FTD – Utilização de apostilas e recursos digitais estruturados.</li>
+          <li>Objetivo – Metodologia focada em desempenho acadêmico.</li>
+          <li>Etapa – Ênfase em raciocínio lógico e aprofundamento conceitual.</li>
+          <li>Koke – Adaptação estratégica conforme proposta didática.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Atuação Pedagógica e Portfólio</h2>
+      <ul>
+        <li>Produção de atividades contextualizadas com temas atuais, como Copa do Mundo, Educação Financeira e situações do cotidiano.</li>
+        <li>Criação de provas, simulados, listas de exercícios, gabaritos comentados e materiais de revisão.</li>
+        <li>Uso de mapas mentais como ferramenta de organização, revisão e consolidação da aprendizagem.</li>
+        <li>Desenvolvimento de atividades inclusivas e adaptadas para diferentes necessidades de aprendizagem.</li>
+        <li>Trabalho com alunos do 8º e 9º ano em conteúdos como equações, proporção, estatística, probabilidade, produtos notáveis e fatoração.</li>
+        <li>Incentivo à participação, autonomia, responsabilidade e superação das dificuldades em Matemática.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formação Acadêmica</h2>
+      <p><strong>Licenciatura Plena em Matemática (Habilitação em Física)</strong></p>
+      <p class="institution">Universidade Camilo Castelo Branco – São Paulo</p>
+    </section>
+
+    <section>
+      <h2>Competências</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Planejamento Estratégico</h3>
+          <p>Planos de aula estruturados conforme BNCC, objetivos de aprendizagem e metas avaliativas.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Metodologias Ativas</h3>
+          <p>Aulas contextualizadas, uso de situações-problema, mapas mentais e aprendizagem significativa.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Comunicação e Liderança</h3>
+          <p>Gestão de sala, mediação pedagógica, coordenação de turma e desenvolvimento de projetos.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Inclusão e Acompanhamento</h3>
+          <p>Adaptação de atividades, acolhimento pedagógico e apoio individualizado aos estudantes.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Avaliação da Aprendizagem</h3>
+          <p>Elaboração de avaliações diagnósticas, formativas, somativas e recuperação de aprendizagem.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tecnologia Educacional</h3>
+          <p>Produção de materiais digitais, organização de conteúdos e recursos visuais para apoio às aulas.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Diferenciais Profissionais</h2>
+      <ul>
+        <li>Experiência ampla em diferentes etapas de ensino.</li>
+        <li>Didática clara, objetiva e acolhedora.</li>
+        <li>Capacidade de transformar conteúdos matemáticos em propostas acessíveis e significativas.</li>
+        <li>Compromisso com a formação integral dos alunos.</li>
+        <li>Vivência em projetos pedagógicos, revisão de conteúdos e acompanhamento de desempenho.</li>
+      </ul>
+    </section>
+
+
+    <section>
+
+<h2>Informática</h2>
+
+<ul>
+
+<li>Microsoft Word</li>
+<li>Microsoft Excel</li>
+<li>Microsoft PowerPoint</li>
+<li>Google Workspace</li>
+<li>Canva</li>
+<li>Plataformas Educacionais</li>
+<li>Tecnologias Digitais aplicadas à Educação</li>
+
+</ul>
+
+</section>
+    <section>
+
+        <h2>Diferenciais</h2>
+
+          <ul>
+            <li>Quase 20 anos de experiência docente.</li>
+            <li>Experiência na rede pública estadual e na rede privada.</li>
+            <li>Atuação no Ensino Fundamental II, Ensino Médio e cursos profissionalizantes.</li>
+            <li>Planejamento pedagógico conforme a BNCC.</li>
+            <li>Experiência com os Sistemas de Ensino FTD, Moderna e Ético.</li>
+            <li>Desenvolvimento de projetos interdisciplinares.</li>
+            <li>Educação Financeira aplicada ao currículo escolar.</li>
+            <li>Recuperação contínua da aprendizagem.</li>
+
+</ul>
+
+</section>
+
+    <footer>
+      2026
+    </footer>
+
+  </div>
+
+</body>
+</html>
